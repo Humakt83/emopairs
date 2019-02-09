@@ -5,7 +5,10 @@ const CLASSES_PREFIX = 'emopair pair--';
 const CLASSES = ['turtle', 'monkey', 'robot', 'ghost', 'poo', 'snake', 'alien', 'tiger',
                 'sunglasses', 'fear', 'skull', 'clown', 'monster', 'kiss', 'heart',
                 'collision', 'bomb', 'eyes', 'gorilla', 'dog', 'wolf', 'lion', 'unicorn',
-                'pig', 'rally', 'japanese', 'trident', 'yinyang', 'radioactive', 'moai']
+                'pig', 'rally', 'japanese', 'trident', 'yinyang', 'radioactive', 'moai',
+                'frog', 'dragon', 'whale', 'fish', 'tropicalfish', 'octopus', 'snail',
+                'bug', 'lady', 'rose', 'tulip', 'blossom', 'palm', 'maple', 'melon',
+                'apple', 'eggplant', 'mushroom', 'bread', 'hamburger', 'cake'];
 
 @Component({
     selector: 'emopairs',
