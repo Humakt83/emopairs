@@ -195,3 +195,53 @@
 .pair--pig:before {
   content: "🐷";
 }
+
+.pair--rally {
+  background-color: yellow;
+}
+
+.pair--rally:before {
+  content: "🏁";
+}
+
+.pair--japanese {
+  background-color: teal;
+}
+
+.pair--japanese:before {
+  content: "🈳";
+}
+
+.pair--trident {
+  background-color: seagreen;
+}
+
+.pair--trident:before {
+  content: "🔱";
+}
+
+.pair--yinyang {
+  background-color: blue;
+}
+
+.pair--yinyang:before {
+  content: "☯";
+}
+
+.pair--radioactive {
+  background-color: blue;
+}
+
+.pair--radioactive:before {
+  content: "☢";
+}
+
+.pair--moai {
+  background-color: lightgrey;
+}
+
+.pair--moai:before {
+  content: "🗿";
+}
+
+

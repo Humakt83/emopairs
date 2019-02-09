@@ -5,7 +5,7 @@ const CLASSES_PREFIX = 'emopair pair--';
 const CLASSES = ['turtle', 'monkey', 'robot', 'ghost', 'poo', 'snake', 'alien', 'tiger',
                 'sunglasses', 'fear', 'skull', 'clown', 'monster', 'kiss', 'heart',
                 'collision', 'bomb', 'eyes', 'gorilla', 'dog', 'wolf', 'lion', 'unicorn',
-                'pig']
+                'pig', 'rally', 'japanese', 'trident', 'yinyang', 'radioactive', 'moai']
 
 @Component({
     selector: 'emopairs',
