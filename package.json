@@ -1,0 +1,45 @@
+{
+  "name": "emopairs",
+  "version": "1.0.0",
+  "description": "Pairs game with emoticons",
+  "dependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "core-js": "^2.4.1",
+    "ng2pairs": "^1.0.3",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@types/node": "~6.0.60",
+    "ts-node": "~2.0.0",
+    "typescript": "~2.2.0"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "prodbuild": "ng build --env=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humakt83/emopairs.git"
+  },
+  "keywords": [
+    "emoticons",
+    "pairs"
+  ],
+  "author": "Humakt83",
+  "bugs": {
+    "url": "https://github.com/Humakt83/emopairs/issues"
+  },
+  "homepage": "https://github.com/Humakt83/emopairs#readme"
+}
