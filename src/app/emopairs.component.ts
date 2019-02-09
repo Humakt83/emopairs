@@ -1,22 +1,36 @@
 import { Component, OnInit } from '@angular/core';
 import { PairsService } from 'ng2pairs';
 
-const PREFIX_TO_IMAGES = 'assets/images/pairs/';
-const IMAGE_POSTFIX = '.png';
-const IMAGES = ['Arrow', 'Axe', 'Backpack', 'Book', 'Boots', 'Bow', 'Cards', 'Chainmail', 'Clover', 'Crocodile', 'Crossbow', 'Gems', 'Gold',
-                'Horseshoe', 'Medal', 'Moose', 'Mushroom', 'Oak', 'Pinetree', 'Platemail', 'Ring', 'Shield', 'Staff', 'Stone', 'Sword', 'Treasure', 'Willow']
+const CLASSES_PREFIX = 'emopair pair--';
+const CLASSES = ['turtle', 'monkey', 'robot', 'ghost', 'poo', 'snake', 'alien', 'tiger',
+                'sunglasses', 'fear', 'skull', 'clown', 'monster', 'kiss', 'heart',
+                'collision', 'bomb', 'eyes', 'gorilla', 'dog', 'wolf', 'lion', 'unicorn',
+                'pig']
 
 @Component({
     selector: 'emopairs',
     templateUrl: 'emopairs.html',
-    styleUrls: ['emopairs.css']
 })
 export class EmoPairsComponent implements OnInit {
 
-    constructor(private pairsService: PairsService) {        
+    constructor(private pairsService: PairsService) {
     }
 
-    ngOnInit() {        
-        //this.pairsService.setImages(IMAGES.map(img => PREFIX_TO_IMAGES.concat(img, IMAGE_POSTFIX)));
+    ngOnInit() {
+        this.pairsService.setCssClasses(this.randomEmojis().map(c => CLASSES_PREFIX + c));
     }
+
+    randomEmojis(): String[] {
+        const array = [].concat(CLASSES);
+        let currentIndex = array.length, randomIndex, temporaryValue;
+        while (0 !== currentIndex) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+        return array;
+  }
+
 }

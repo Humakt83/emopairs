@@ -1,2 +1,197 @@
-body {
+.emopair {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.pair--turtle {
+  background-color: red;
+}
+
+.pair--turtle:before {
+  content: "🐢";
+}
+
+.pair--monkey {
+  background-color: yellow;
+}
+
+.pair--monkey:before {
+  content: "🐒";
+}
+
+.pair--robot {
+  background-color: blue;
+}
+
+.pair--robot:before {
+  content: "🤖";
+}
+
+.pair--ghost {
+  background-color: black;
+}
+
+.pair--ghost:before {
+  content: "👻";
+}
+
+.pair--poo {
+  background-color: yellow;
+}
+
+.pair--poo:before {
+  content: "💩";
+}
+
+.pair--alien {
+  background-color: cyan;
+}
+
+.pair--alien:before {
+  content: "💩";
+}
+
+.pair--tiger {
+  background-color: green;
+}
+
+.pair--tiger:before {
+  content: "💩";
+}
+
+
+.pair--snake {
+  background-color: red;
+}
+
+.pair--snake:before {
+  content: "💩";
+}
+
+.pair--sunglasses {
+  background-color: orange;
+}
+
+.pair--sunglasses:before {
+  content: "😎";
+}
+
+.pair--fear {
+  background-color: darkblue;
+}
+
+.pair--fear:before {
+  content: "😱";
+}
+
+.pair--skull {
+  background-color: black;
+}
+
+.pair--skull:before {
+  content: "💀";
+}
+
+.pair--clown {
+  background-color: pink;
+}
+
+.pair--clown:before {
+  content: "🤡";
+}
+
+.pair--monster {
+  background-color: purple;
+}
+
+.pair--monster:before {
+  content: "👾";
+}
+
+.pair--kiss {
+  background-color: pink;
+}
+
+.pair--kiss:before {
+  content: "💋";
+}
+
+.pair--heart {
+  background-color: violet;
+}
+
+.pair--heart:before {
+  content: "❤";
+}
+
+.pair--collision {
+  background-color: brown;
+}
+
+.pair--collision:before {
+  content: "💥";
+}
+
+.pair--bomb {
+  background-color: red;
+}
+
+.pair--bomb:before {
+  content: "💣";
+}
+
+.pair--eyes {
+  background-color: cyan;
+}
+
+.pair--eyes:before {
+  content: "👀";
+}
+
+.pair--gorilla {
+  background-color: grey;
+}
+
+.pair--gorilla:before {
+  content: "🦍";
+}
+
+.pair--dog {
+  background-color: tan;
+}
+
+.pair--dog:before {
+  content: "🐶";
+}
+
+.pair--wolf {
+  background-color: darkmagenta;
+}
+
+.pair--wolf:before {
+  content: "🐺";
+}
+
+.pair--lion {
+  background-color: greenyellow;
+}
+
+.pair--lion:before {
+  content: "🦁";
+}
+
+.pair--unicorn {
+  background-color: orange;
+}
+
+.pair--unicorn:before {
+  content: "🦄";
+}
+
+.pair--pig {
+  background-color: green;
+}
+
+.pair--pig:before {
+  content: "🐷";
 }
