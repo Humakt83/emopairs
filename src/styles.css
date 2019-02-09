@@ -1,6 +1,44 @@
+body {
+  background: linear-gradient(to right, #ffffee 5%, #aabbcc, #aabbcc, #aabbcc, #ffffee 95%)
+}
+
+@keyframes selected {
+  from { opacity: 0.5;}
+  to { opacity: 1;}
+}
+
+.pairsButton {
+  border-radius: 3px !important;
+  color: white !important;
+  margin-top: 15px;
+}
+
+.pairsButtonSelected,
+.pairsButton:hover {
+  color: black !important;
+}
+
+.pairsButtonSelected:hover {
+  cursor: default !important;
+  color: black !important;
+  background: linear-gradient(to left top, white, white, white, black) !important;
+}
+
+.playerButton {
+  background: black !important;
+  color: white !important;
+}
+
+.playerButton:hover {
+  color: white !important;
+  border: 2px solid #999999 !important;
+}
+
 .emopair {
   font-size: 54px;
   font-weight: bold;
+  animation-name: selected;
+  animation-duration: 270ms;
 }
 
 .pair--turtle {
