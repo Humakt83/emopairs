@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(to right, #ffffee 5%, #aabbcc, #aabbcc, #aabbcc, #ffffee 95%)
+  background: linear-gradient(to right, #ffffee 5%, #aabbcc, #aabbcc, #aabbcc, #ffffee 95%);
+  color: #34359e;
 }
 
 @keyframes selected {
@@ -11,34 +12,43 @@ body {
   border-radius: 3px !important;
   color: white !important;
   margin-top: 15px;
+  border: 3px solid #34359e !important;
+  background: linear-gradient(to left top, #34359e, #34359e, #34359e, white) !important;
 }
 
 .pairsButtonSelected,
 .pairsButton:hover {
-  color: black !important;
+  color: #34359e !important;
+  background: linear-gradient(to left top, white, white, white, #34359e) !important;
 }
 
 .pairsButtonSelected:hover {
   cursor: default !important;
-  color: black !important;
-  background: linear-gradient(to left top, white, white, white, black) !important;
+  color: #34359e !important;
+  background: linear-gradient(to left top, white, white, white, #34359e) !important;
 }
 
 .playerButton {
-  background: black !important;
+  margin-top: 5px !important;
+  background: #34359e !important;
   color: white !important;
+  border: 2px solid #34359e !important;
 }
 
 .playerButton:hover {
   color: white !important;
-  border: 2px solid #999999 !important;
+  border: 2px solid white !important;
+}
+
+.piece--default {
+  background: #34359e !important;
 }
 
 .emopair {
   font-size: 54px;
   font-weight: bold;
   animation-name: selected;
-  animation-duration: 270ms;
+  animation-duration: 1s;
 }
 
 .pair--turtle {
@@ -86,7 +96,7 @@ body {
 }
 
 .pair--alien:before {
-  content: "💩";
+  content: "👽";
 }
 
 .pair--tiger {
@@ -94,7 +104,7 @@ body {
 }
 
 .pair--tiger:before {
-  content: "💩";
+  content: "🐯";
 }
 
 
@@ -103,7 +113,7 @@ body {
 }
 
 .pair--snake:before {
-  content: "💩";
+  content: "🐍";
 }
 
 .pair--sunglasses {
