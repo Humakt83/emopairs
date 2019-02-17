@@ -158,12 +158,12 @@ body {
     content: "💀";
   }
 
-  .pair--clown {
+  .pair--fuji {
     background-color: pink;
   }
 
-  .pair--clown:before {
-    content: "🤡";
+  .pair--fuji:before {
+    content: "🗻";
   }
 
   .pair--monster {
@@ -246,12 +246,12 @@ body {
     content: "🦁";
   }
 
-  .pair--unicorn {
-    background-color: orange;
+  .pair--beer {
+    background-color: lightcoral;
   }
 
-  .pair--unicorn:before {
-    content: "🦄";
+  .pair--beer:before {
+    content: "🍺";
   }
 
   .pair--pig {
@@ -278,28 +278,28 @@ body {
     content: "🈳";
   }
 
-  .pair--trident {
+  .pair--cocktail {
     background-color: seagreen;
   }
 
-  .pair--trident:before {
-    content: "🔱";
+  .pair--cocktail:before {
+    content: "🍸";
   }
 
-  .pair--yinyang {
+  .pair--coffee {
+    background-color: black;
+  }
+
+  .pair--coffee:before {
+    content: "☕";
+  }
+
+  .pair--icecream {
     background-color: blue;
   }
 
-  .pair--yinyang:before {
-    content: "☯";
-  }
-
-  .pair--radioactive {
-    background-color: blue;
-  }
-
-  .pair--radioactive:before {
-    content: "☢";
+  .pair--icecream:before {
+    content: "🍦";
   }
 
   .pair--moai {
@@ -366,20 +366,20 @@ body {
     content: "🐌";
   }
 
-  .pair--bug {
+  .pair--orange {
     background-color: oldlace;
   }
 
-  .pair--bug:before {
-    content: "🐛";
+  .pair--orange:before {
+    content: "🍊";
   }
 
-  .pair--lady {
-    background-color: olive;
+  .pair--clover {
+    background-color: skyblue;
   }
 
-  .pair--lady:before {
-    content: "🐞";
+  .pair--clover:before {
+    content: "🍀";
   }
 
   .pair--rose {
@@ -403,7 +403,7 @@ body {
   }
 
   .pair--blossom:before {
-    content: "🌼";
+    content: "🌻";
   }
 
   .pair--palm {
@@ -414,12 +414,12 @@ body {
     content: "🌴";
   }
 
-  .pair--maple {
+  .pair--horse {
     background-color: turquoise;
   }
 
-  .pair--maple:before {
-    content: "🍁";
+  .pair--horse:before {
+    content: "🐴";
   }
 
   .pair--melon {
@@ -438,12 +438,12 @@ body {
     content: "🍎";
   }
 
-  .pair--eggplant {
-    background-color: khaki;
+  .pair--cat {
+    background-color: darkred;
   }
 
-  .pair--eggplant:before {
-    content: "🍆";
+  .pair--cat:before {
+    content: "🐱";
   }
 
   .pair--mushroom {
@@ -477,4 +477,5 @@ body {
   .pair--cake:before {
     content: "🎂";
   }
+  
 }

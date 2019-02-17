@@ -3,12 +3,12 @@ import { PairsService } from 'ng2pairs';
 
 const CLASSES_PREFIX = 'emopair pair--';
 const CLASSES = ['turtle', 'monkey', 'robot', 'ghost', 'poo', 'snake', 'alien', 'tiger',
-                'sunglasses', 'fear', 'skull', 'clown', 'monster', 'kiss', 'heart',
-                'collision', 'bomb', 'eyes', 'gorilla', 'dog', 'wolf', 'lion', 'unicorn',
-                'pig', 'rally', 'japanese', 'trident', 'yinyang', 'radioactive', 'moai',
+                'sunglasses', 'fear', 'skull', 'fuji', 'monster', 'kiss', 'heart',
+                'collision', 'bomb', 'eyes', 'gorilla', 'dog', 'wolf', 'lion', 'beer',
+                'pig', 'rally', 'japanese', 'cocktail', 'coffee', 'icecream', 'moai',
                 'frog', 'dragon', 'whale', 'fish', 'tropicalfish', 'octopus', 'snail',
-                'bug', 'lady', 'rose', 'tulip', 'blossom', 'palm', 'maple', 'melon',
-                'apple', 'eggplant', 'mushroom', 'bread', 'hamburger', 'cake'];
+                'orange', 'clover', 'rose', 'tulip', 'blossom', 'palm', 'horse', 'melon',
+                'apple', 'cat', 'mushroom', 'bread', 'hamburger', 'cake', 'rice'];
 
 @Component({
     selector: 'emopairs',
