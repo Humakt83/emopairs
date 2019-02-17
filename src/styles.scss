@@ -1,0 +1,480 @@
+$blue: #34359e;
+
+body {
+  background: linear-gradient(to right, #ffffee 5%, #aabbcc, #aabbcc, #aabbcc, #ffffee 95%);
+  color: $blue;
+}
+
+@keyframes selected {
+  from { opacity: 0.5;}
+  to { opacity: 1;}
+}
+
+#emopairs {  
+  .pairsButton {
+    border-radius: 3px;
+    color: white;
+    margin-top: 15px;
+    border: 3px solid $blue;
+    background: linear-gradient(to left top, $blue, $blue, $blue, white);
+  }
+
+  .pairsButtonSelected,
+  .pairsButton:hover {
+    color: $blue;
+    background: linear-gradient(to left top, white, white, white, $blue);
+  }
+
+  .pairsButtonSelected:hover {
+    cursor: default;
+    color: $blue;
+    background: linear-gradient(to left top, white, white, white, $blue);
+  }
+
+  .playerButton {
+    margin-top: 5px;
+    background: $blue;
+    color: white;
+    border: 2px solid $blue;
+  }
+
+  .playerButton:hover {
+    color: white;
+    border: 2px solid white;
+  }
+
+  .clicks,
+  .player {
+    background: white;
+    color: $blue;
+    border: 3px solid $blue;
+    border-radius: 3px;
+  }
+
+  .highlightPlayer {
+    background: yellow;
+    border: 3px solid yellow;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .piece--default {
+    background: $blue;  
+  }
+
+  .emopair {
+    font-size: 50px;
+    font-weight: bold;
+    animation-name: selected;
+    animation-duration: 1s;
+  }
+
+  .pair--turtle {
+    background-color: red;
+  }
+
+  .pair--turtle:before {
+    content: "🐢";
+  }
+
+  .pair--monkey {
+    background-color: yellow;
+  }
+
+  .pair--monkey:before {
+    content: "🐒";
+  }
+
+  .pair--robot {
+    background-color: blue;
+  }
+
+  .pair--robot:before {
+    content: "🤖";
+  }
+
+  .pair--ghost {
+    background-color: black;
+  }
+
+  .pair--ghost:before {
+    content: "👻";
+  }
+
+  .pair--poo {
+    background-color: yellow;
+  }
+
+  .pair--poo:before {
+    content: "💩";
+  }
+
+  .pair--alien {
+    background-color: cyan;
+  }
+
+  .pair--alien:before {
+    content: "👽";
+  }
+
+  .pair--tiger {
+    background-color: green;
+  }
+
+  .pair--tiger:before {
+    content: "🐯";
+  }
+
+
+  .pair--snake {
+    background-color: red;
+  }
+
+  .pair--snake:before {
+    content: "🐍";
+  }
+
+  .pair--sunglasses {
+    background-color: orange;
+  }
+
+  .pair--sunglasses:before {
+    content: "😎";
+  }
+
+  .pair--fear {
+    background-color: darkblue;
+  }
+
+  .pair--fear:before {
+    content: "😱";
+  }
+
+  .pair--skull {
+    background-color: black;
+  }
+
+  .pair--skull:before {
+    content: "💀";
+  }
+
+  .pair--clown {
+    background-color: pink;
+  }
+
+  .pair--clown:before {
+    content: "🤡";
+  }
+
+  .pair--monster {
+    background-color: purple;
+  }
+
+  .pair--monster:before {
+    content: "👾";
+  }
+
+  .pair--kiss {
+    background-color: pink;
+  }
+
+  .pair--kiss:before {
+    content: "💋";
+  }
+
+  .pair--heart {
+    background-color: violet;
+  }
+
+  .pair--heart:before {
+    content: "❤";
+  }
+
+  .pair--collision {
+    background-color: brown;
+  }
+
+  .pair--collision:before {
+    content: "💥";
+  }
+
+  .pair--bomb {
+    background-color: red;
+  }
+
+  .pair--bomb:before {
+    content: "💣";
+  }
+
+  .pair--eyes {
+    background-color: cyan;
+  }
+
+  .pair--eyes:before {
+    content: "👀";
+  }
+
+  .pair--gorilla {
+    background-color: grey;
+  }
+
+  .pair--gorilla:before {
+    content: "🦍";
+  }
+
+  .pair--dog {
+    background-color: tan;
+  }
+
+  .pair--dog:before {
+    content: "🐶";
+  }
+
+  .pair--wolf {
+    background-color: darkmagenta;
+  }
+
+  .pair--wolf:before {
+    content: "🐺";
+  }
+
+  .pair--lion {
+    background-color: greenyellow;
+  }
+
+  .pair--lion:before {
+    content: "🦁";
+  }
+
+  .pair--unicorn {
+    background-color: orange;
+  }
+
+  .pair--unicorn:before {
+    content: "🦄";
+  }
+
+  .pair--pig {
+    background-color: green;
+  }
+
+  .pair--pig:before {
+    content: "🐷";
+  }
+
+  .pair--rally {
+    background-color: yellow;
+  }
+
+  .pair--rally:before {
+    content: "🏁";
+  }
+
+  .pair--japanese {
+    background-color: teal;
+  }
+
+  .pair--japanese:before {
+    content: "🈳";
+  }
+
+  .pair--trident {
+    background-color: seagreen;
+  }
+
+  .pair--trident:before {
+    content: "🔱";
+  }
+
+  .pair--yinyang {
+    background-color: blue;
+  }
+
+  .pair--yinyang:before {
+    content: "☯";
+  }
+
+  .pair--radioactive {
+    background-color: blue;
+  }
+
+  .pair--radioactive:before {
+    content: "☢";
+  }
+
+  .pair--moai {
+    background-color: lightgrey;
+  }
+
+  .pair--moai:before {
+    content: "🗿";
+  }
+
+  .pair--frog {
+    background-color: orange;
+  }
+
+  .pair--frog:before {
+    content: "🐸";
+  }
+
+  .pair--dragon {
+    background-color: fuchsia;
+  }
+
+  .pair--dragon:before {
+    content: "🐲";
+  }
+
+  .pair--whale {
+    background-color: cyan;
+  }
+
+  .pair--whale:before {
+    content: "🐳";
+  }
+
+  .pair--fish {
+    background-color: seagreen;
+  }
+
+  .pair--fish:before {
+    content: "🐟";
+  }
+
+  .pair--tropicalfish {
+    background-color: darkblue;
+  }
+
+  .pair--tropicalfish:before {
+    content: "🐠";
+  }
+
+  .pair--octopus {
+    background-color: black;
+  }
+
+  .pair--octopus:before {
+    content: "🐙";
+  }
+
+  .pair--snail {
+    background-color: yellowgreen;
+  }
+
+  .pair--snail:before {
+    content: "🐌";
+  }
+
+  .pair--bug {
+    background-color: oldlace;
+  }
+
+  .pair--bug:before {
+    content: "🐛";
+  }
+
+  .pair--lady {
+    background-color: olive;
+  }
+
+  .pair--lady:before {
+    content: "🐞";
+  }
+
+  .pair--rose {
+    background-color: palevioletred;
+  }
+
+  .pair--rose:before {
+    content: "🌹";
+  }
+
+  .pair--tulip {
+    background-color: cyan;
+  }
+
+  .pair--tulip:before {
+    content: "🌷";
+  }
+
+  .pair--blossom {
+    background-color: darkred;
+  }
+
+  .pair--blossom:before {
+    content: "🌼";
+  }
+
+  .pair--palm {
+    background-color: darkkhaki;
+  }
+
+  .pair--palm:before {
+    content: "🌴";
+  }
+
+  .pair--maple {
+    background-color: turquoise;
+  }
+
+  .pair--maple:before {
+    content: "🍁";
+  }
+
+  .pair--melon {
+    background-color: lightsalmon;
+  }
+
+  .pair--melon:before {
+    content: "🍉";
+  }
+
+  .pair--apple {
+    background-color: lightskyblue;
+  }
+
+  .pair--apple:before {
+    content: "🍎";
+  }
+
+  .pair--eggplant {
+    background-color: khaki;
+  }
+
+  .pair--eggplant:before {
+    content: "🍆";
+  }
+
+  .pair--mushroom {
+    background-color: darkmagenta;
+  }
+
+  .pair--mushroom:before {
+    content: "🍄";
+  }
+
+  .pair--bread {
+    background-color: greenyellow;
+  }
+
+  .pair--bread:before {
+    content: "🍞";
+  }
+
+  .pair--hamburger {
+    background-color: green;
+  }
+
+  .pair--hamburger:before {
+    content: "🍔";
+  }
+
+  .pair--cake {
+    background-color: goldenrod;
+  }
+
+  .pair--cake:before {
+    content: "🎂";
+  }
+}
